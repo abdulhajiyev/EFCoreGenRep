@@ -1,11 +1,11 @@
 ﻿<Window
-    x:Class="EFCoreGenRep.EditWindow"
+    x:Class="EFCoreGenRep.Views.ProductWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:EFCoreGenRep"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="EditWindow"
+    Title="ProductWindow"
     Width="400"
     ResizeMode="NoResize"
     mc:Ignorable="d">
@@ -22,7 +22,7 @@
             <Label Margin="10,0,0,0">Product category:</Label>
             <ComboBox Height="25" Margin="10" />
 
-            <Label Margin="10,0,0,0">Product cost</Label>
+            <Label Margin="10,0,0,0">Product cost:</Label>
             <TextBox Height="25" Margin="10" />
         </StackPanel>
         <Grid Grid.Row="1">
